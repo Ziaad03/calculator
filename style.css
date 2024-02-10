@@ -1,0 +1,158 @@
+
+@import url('https://fonts.cdnfonts.com/css/callie-chalk-font');
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px ;
+    background-color: #497959;
+    overflow-y: auto;
+    box-shadow: -1px 2px 2px 0px #555, inset 0 0 10px 0 #555;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+    border: #B78240 solid 10px;
+    border: 5px solid rgb(185, 100, 20);
+    background-image: url('imj/background-board');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 40px;
+   
+}
+
+
+.Header{
+    margin-top: 25px;
+    font-family: 'Callie Chalk Font', sans-serif;
+    color:rgb(202, 199, 199);
+    font-size: 32px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calc-container{
+    width: 340px;
+    height: 480px;
+    border: 1px solid black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 20px;
+    background-color: rgb(196, 75, 99);
+    
+   
+}
+
+
+
+#display{
+    width: 320px;
+    height: 110px;
+    border: 1px solid rgb(24, 23, 23);
+    margin-top: 10px;
+    background-color: rgb(22, 99, 54);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+   
+}
+
+#text{
+    
+    font-size: 40px;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    margin-left: 10px;
+    color: antiquewhite;
+    font-family: 'Callie Chalk Font', sans-serif;
+   
+}
+
+#result{
+    font-size: 40px;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Callie Chalk Font', sans-serif;
+    
+}
+#error-text{
+    font-size: 20px;
+    height: 40px;
+    width:320px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Callie Chalk Font', sans-serif;
+   
+
+}
+
+.calc-buttons{
+    width: 320px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    
+    
+}
+
+button{
+    width: 70px;
+    height: 50px;
+    border-radius: 20px;
+    
+    
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+.s-numbers button{
+    height: 50px;
+    width: 90px;
+}
+
+.s-numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18px;
+}
+
+.operator, .equal-sign{
+    background-color: rgb(39, 71, 175);
+    
+}
+.clear{
+    background-color: yellow;
+}
+
+.footer{
+    font-family: 'Callie Chalk Font', sans-serif;
+    color:rgb(202, 199, 199);
+}
